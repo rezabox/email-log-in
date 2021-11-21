@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,600&family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif ,;
+    text-align: center;
+    margin: 30px;
+}
+.container{
+      width: 960;
+      max-height: 100vh;
+}
+#svg{
+      margin-bottom:10px;
+      height: 20px;
+      width: 50px;
+}
+h1{
+    margin: 5px;
+    color:hsl(0, 0%, 59%) ;
+}
+#user{
+      margin: 30px;
+}
+#email{
+     width: 300px;
+     padding:10px;
+     height: 40px;
+     border-radius: 50px;
+     color:hsl(0, 0%, 59%) ;
+     border: 1px solid hsl(223, 100%, 88%) ;
+}
+#mail{
+    width:120px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    box-shadow: 2px 5px 5px hsl(223, 100%, 88%) ;
+    transition: 1s all ease;
+}
+#mail:hover{
+      background-color: hsl(223, 100%, 88%);
+    
+}
+h1 span{
+    color: #000;
+}
+p{
+    margin: 10px;
+    color: hsl(0, 0%, 59%) ;
+}
+
+#logo{
+     width: 600px;   
+}
+.error-msg{
+    display: none;
+    color: red;
+    font-style:italic ;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+div.social{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     width: 200px;
+     margin: 20px auto;
+     color:  hsl(223, 87%, 63%); 
+}
+#logo-1{
+      border: 1px solid  hsl(223, 100%, 88%);
+      padding: 4px;
+      border-radius: 12px;
+}
+#logo-2{
+    border: 1px solid  hsl(223, 100%, 88%);
+    padding: 4px;
+    border-radius: 12px;
+}
+#logo-3{
+    border: 1px solid  hsl(223, 100%, 88%);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#logo-1:hover{
+      color: #fff;
+      background-color: hsl(223, 87%, 63%);
+      border: 1px solid hsl(223, 87%, 63%);
+      transition: all 2s ease;
+}
+#logo-2:hover{
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    transition: all 2s ease; 
+}
+#logo-3:hover{
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(223, 87%, 63%);
+    transition: all 2s ease;
+}
+@media screen and (max-width:600px){
+        h1{
+             font-size: x-large;
+        }
+        #logo{
+             width: 300px;
+
+        }
+       #email{
+           width: 250px;
+           margin-left: 6px;
+       }
+       #mail{
+           width: 250px;
+           margin-top: 20px;
+       }
+
+}
